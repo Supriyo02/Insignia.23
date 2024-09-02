@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insignia</title>
+
+    <link rel="shortcut icon" href="./images/Insignia Logo Final Without Tag.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/loading.css"> -->
+    <!-- Clock Time -->
+    <link rel="stylesheet" href="./css/flipdown.css">
+    <script src="./js/flipdown.js"></script>
+    <!-- <script src="./js/loading.js"></script> -->
+    <!-- Iconscout CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- GOOGLE FONTS (MONTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body content="width=device-width">
+
+    <div id="loading"></div>
+
+    <!-- Nav Start -->
+    <nav content="width=device-width">
+        <div class="container nav_container" content="width=device-width">
+            <a class="insigniatext" href="index.html">
+                <img src="./images/Insignia Text.png" style="width: 70%; height: 70%;" />
+            </a>
+            <div>
+                <a href="https://forms.gle/ZobhNmiuLaprTR376" class="register-button">Register</i>
+                </a>
+            </div>
+            <ul class="nav_menu">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="#level"> Rounds </a></li>
+                <li><a href="#about-us"> AboutUs </a></li>
+                <li><a href="#fq"> Faqs </a></li>
+            </ul>
+            <button id="open-menu-btn"> <i class="uil uil-bars"></i> </button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"> </i> </button>
+        </div>
+    </nav>
+
+    <section class="home" id="home" content="width=device-width">
+        <div class="timer" content="width=device-width">
+            <div class="logoname" style="display: flex; gap: 4%;">
+                <img class="logo" style="padding-bottom: 8%;" src="./images/logowttag.svg" width="170px"
+                    height="200px" />
+                <h1 style="padding-top: 5%;">INSIGNIA 2K23</h1>
+            </div>
+            <img class="tagline" src="./images/Text 2.svg">
+            <div id="flipdown" class="flipdown"></div>
+        </div>
+        <div class="header_right">
+            <video width="100%" controls autoplay muted>
+                <source src="InsigniaTop.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <section class="celebrate">
+        <h2 class="headingg">Celebrating SILVER JUBILEE of MCKV Institue of Engineering with the first ever Data-Science
+            event of MCKVIE</h2>
+        <div class="celebration">
+            <img src="./images/collegelogo.png" alt="College Logo">
+        </div>
+    </section>
+    <section class="about" id="about-us">
+        <h2 class="heading">What's Insignia 2k23?</h2>
+        <div class="about-container">
+            <div class="aboutallimage" style="width: 40%;">
+                <div class="about-image" style="display: flex; gap: 4%;">
+                    <img style="width:48%; border-radius: 8%;" src="./images/About1.webp" />
+                    <img style="width:48%; border-radius: 8%;" src="./images/About2.jpg" />
+                </div>
+                <img class="aboutimg3" style="width:38%; margin-left: 27%; margin-top: 4%; border-radius: 8%;"
+                    src="./images/About3.jpg" />
+            </div>
+            <div class="about-content">
+                <p>
+                    The Department of Computer Science & Engineering (Data Science) proudly presents its new event:
+                    “Insignia : Turn Data into Insights”.
+                </p>
+                <p>
+                    For the very first time, CSE-DS takes the centre stage with an event that promises to redefine
+                    possibilities. Insignia 2k23 is not just an event; it is a declaration of our commitment to
+                    innovation, excellence, and pushing boundaries of what is achievable.
+                </p>
+                <p>
+                    Embrace the excitement and embrace the future as we delve into a realm where data meets creativity,
+                    and technology meets imagination. Be a part of this remarkable journey as we set sail into uncharted
+                    waters, led by the spirit of discovery. The countdown to a healthier, more vibrant coding
+                    environment begins now!
+                </p>
+                <p>
+                    Today’s event, tomorrow’s tradition – an unbreakable chain begins!
+
+                </p>
+
+                <h3
+                    style="width: 30%;padding: 1%; background-color: #A35881; border-radius: 10px; margin-top: 4%; text-align: center;">
+                    <a href="https://calendar.app.google/dyE8bR2a7pbbiLyu7" target="_blank">Date: 27th September</a>
+                </h3>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section  -->
+
+    <!--================================== Start OF Levels ======================-->
+    <section id="level" class="levels">
+        <h2 style="font-size: 3rem;"> Roadmap of the event </h2>
+        <div class="container levels_container">
+            <article class="level" style="border-radius: 12px;">
+                <div class="card" style="border-radius: 12px;">
+                    <div class="front" style="border-radius: 12px;">
+                        <div class="level_image">
+                            <img style="border-radius: 4% 4% 0% 0%;" src="./images/About1.webp">
+                        </div>
+                        <div class="levels_info">
+                            <h4> Inaugaration Ceremony</h4>
+                            <a href="#" class="btn btn-primary learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="back" style="border-radius: 12px;">
+                        <h1>Starting</h1>
+                        <p>
+                            As we embark on this exciting endeavor, we will commence Insignia 2k23 with a heartfelt
+                            inauguration ceremony
+                        </p>
+                        <a href="#" class="btn btn-primary learn-more">Go Back</a>
+                    </div>
+                </div>
+            </article>
+            <article class="level" style="border-radius: 12px;">
+                <div class="card" style="border-radius: 12px;">
+                    <div class="front" style="border-radius: 12px;">
+                        <div class="level_image">
+                            <img style="border-radius: 4% 4% 0% 0%;"
+                                src="https://idreamcareer.com/wp-content/uploads/2020/11/aptitude-test.webp">
+                        </div>
+                        <div class="levels_info">
+                            <h4>AptiCode Quest</h4>
+                            <a href="#" class="btn btn-primary learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="back" style="border-radius: 12px;">
+                        <h1>Round 1</h1>
+                        <p>
+                            This round sets the stage for your coding odyssey, testing your foundation and setting you
+                            on the path to glory.
+                            Top 20 teams will qualify for Round 2.
+                        </p>
+                        <a href="#" class="btn btn-primary learn-more">Go Back</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="level" style="border-radius: 12px;">
+                <div class="card" style="border-radius: 12px;">
+                    <div class="front" style="border-radius: 12px;">
+                        <div class="level_image">
+                            <img style="border-radius: 4% 4% 0% 0%;"
+                                src="https://www.bacinos.com/wp-content/uploads/2021/04/Pizza-Vs-Burger-Vitamin-And-Minerals.jpg">
+                        </div>
+                        <div class="levels_info">
+                            <h4> Refreshments </h4>
+                            <a href="#" class="btn btn-primary learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="back" style="border-radius: 12px;">
+                        <h1>Break</h1>
+                        <p>
+                            🔔 Every team which qualifies for round 2, lunch will be provided! 🥗
+                        </p>
+                        <a href="#" class="btn btn-primary learn-more">Go Back</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="level" style="border-radius: 12px;">
+                <div class="card" style="border-radius: 12px;">
+                    <div class="front" style="border-radius: 12px;">
+                        <div class="level_image">
+                            <img style="border-radius: 4% 4% 0% 0%;"
+                                src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Data-Science-vs.-Big-Data-vs.jpg">
+                        </div>
+                        <div class="levels_info">
+                            <h4>CodeX Eliminator</h4>
+                            <a href="#" class="btn btn-primary learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="back" style="border-radius: 12px;">
+                        <h1>Round 2</h1>
+                        <p>
+                            Survival of the fittest coders! Every line of code you write inches you closer to victory in
+                            this exhilarating elimination round.
+                            Top 5/6 teams will qualify for the final round.
+                        </p>
+                        <a href="#" class="btn btn-primary learn-more">Go Back</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="level" style="border-radius: 12px;">
+                <div class="card" style="border-radius: 12px;">
+                    <div class="front" style="border-radius: 12px;">
+                        <div class="level_image">
+                            <img style="border-radius: 4% 4% 0% 0%;"
+                                src="https://media.istockphoto.com/id/1224500457/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?s=612x612&w=0&k=20&c=nHMypkMTU1HUUW85Zt0Ff7MDbq17n0eVeXaoM9Knt4Q=">
+                        </div>
+                        <div class="levels_info">
+                            <h4>Illustra</h4>
+                            <a href="#" class="btn btn-primary learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="back" style="border-radius: 12px;">
+                        <h1>Round 3</h1>
+                        <p>
+                            Here's where secrets and challenges converge. It is a test of your skills and your ability
+                            to think beyond convention.
+                        </p>
+                        <a href="#" class="btn btn-primary learn-more">Go Back</a>
+                    </div>
+                </div>
+            </article>
+            <article class="level" style="border-radius: 12px;">
+                <div class="card" style="border-radius: 12px;">
+                    <div class="front" style="border-radius: 12px;">
+                        <div class="level_image">
+                            <img style="border-radius: 4% 4% 0% 0%;"
+                                src="https://static.vecteezy.com/system/resources/previews/011/431/170/original/competition-winner-holding-golden-trophy-and-medal-leadership-and-achievement-prize-pool-prize-money-distribution-tournament-main-prize-concept-flat-modern-illustration-vector.jpg">
+                        </div>
+                        <div class="levels_info">
+                            <h4> Prize Distribution</h4>
+                            <a href="#" class="btn btn-primary learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <h1>Prizes</h1>
+                        <p>
+                            🏆 Prizes worth _6k for winners! 🎁
+                            Participation certificate for all participants ⭐
+                            Every team which qualifies for round 2, lunch will be provided! 🥗
+                        </p>
+                        <a href="#" class="btn btn-primary learn-more">Go Back</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!--================================== END OF Levels ======================-->
+
+
+    <!--------------- Start of Venue --------------->
+
+    <section class="venue-section" style="padding-bottom: 10%;">
+        <h2 class="heading">Our Venue</h2>
+        <div class="venue_adjust" style="gap: 4%;">
+            <div class="image_slider">
+                <!-- <div class="wrapper"> -->
+                <img
+                    src="https://www.collegebatch.com/static/clg-gallery/mckv-institute-of-engineering-howrah-214433.jpg">
+
+                <!-- </div> -->
+            </div>
+            <div class="venue">
+                <h3 style="padding-bottom: 1rem;">MCKV Institue of Engineering</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31536.33192928962!2d88.32914237596526!3d22.62312480606575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89d65da7b3775%3A0x30915f7e98f1b0d5!2sMCKV%20Institute%20of%20Engineering!5e0!3m2!1sen!2sin!4v1693165064986!5m2!1sen!2sin"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--------------- End of Venue --------------->
+
+    <!------Members------>
+    <section id="member">
+        <h2>Meet Our Team</h2>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="#">
+                                <img src="./Id/Ananya.jpeg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Ananya Ganguly </h4>
+                            <p>
+                                4th Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+918910082606" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Sneha Sinha.jpeg">
+                                <img src="./Id/Sneha Sinha.jpeg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Sneha Singh </h4>
+                            <p>
+                                4th Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+919007923300" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Supriyo.jpeg">
+                                <img src="./Id/Supriyo.jpeg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Supriyo Ghosh </h4>
+                            <p>
+                                3rd Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+916296043650" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com/_supriyo_07/" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Arkaprabha.jpg">
+                                <img src="./Id/Arkaprabha.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Arkaprabha Laha </h4>
+                            <p>
+                                3rd Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+918759360655" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://www.instagram.com/an_avid_bookworm_/" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Mahika Thakur.jpg">
+                                <img src="./Id/Mahika Thakur.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Mahika Thakur </h4>
+                            <p>
+                                3rd Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+919836513258" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com/mahika1110/" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="#">
+                                <img src="./Id/Aindrila Ray.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Aindrila Ray </h4>
+                            <p>
+                                4th Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+916291687274" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com/mahika1110/" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Sakangsa Parui.JPG">
+                                <img src="./Id/Sakangsa Parui.JPG">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Sakangsa Parui </h4>
+                            <p>
+                                3rd Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+916289833095" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com/sakangsaparui/" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Sayan Kumar Dutta.png">
+                                <img src="./Id/Sayan Kumar Dutta.png">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Sayan Kumar Dutta </h4>
+                            <p>
+                                4th Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+918327415404" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com/sayan_k_dutta/" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Sreejeeta Dutta.jpeg">
+                                <img src="./Id/Sreejeeta Dutta.jpeg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Sreejeeta Dutta </h4>
+                            <p>
+                                3rd Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+917278194815" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com/_.sreejeeta._/" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Sourav Singh.jpg">
+                                <img src="./Id/Sourav Singh.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Sourav Singh </h4>
+                            <p>
+                                3rd Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+919830306850" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="#">
+                                <img src="./Id/Argha Biswas.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Argha Biswas </h4>
+                            <p>
+                                2nd Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+916291160084" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Sulagna Dey.jpg">
+                                <img src="./Id/Sulagna Dey.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Sulagna Dey </h4>
+                            <p>
+                                4th Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+917605892034" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a>
+                                <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/Suranjana.jpeg">
+                                <img src="./Id/Suranjana.jpeg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Suranjana Saha </h4>
+                            <p>
+                                4th Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+917439440087" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/">
+                                <img src="./Id/Trishita Roy.JPG">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Trishita Roy </h4>
+                            <p>
+                                4th Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+919007052079" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/">
+                                <img src="./Id/arindam.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Arindam Das </h4>
+                            <p>
+                                4th Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+917430970130" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/">
+                                <img src="./Id/Navanil.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Navanil Ghosh </h4>
+                            <p>
+                                4th Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+919123792013" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/">
+                                <img src="./Id/Swastik.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Swastik Ghosh </h4>
+                            <p>
+                                2nd Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+917980167193" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide team_member">
+                        <div class="team_member-image">
+                            <a href="./Id/">
+                                <img src="./Id/Ishita.jpg">
+                            </a>
+                        </div>
+                        <div class="team_member-info">
+                            <h4> Ishita Kundu </h4>
+                            <p>
+                                3rd Year
+                            </p>
+                        </div>
+                        <div class="team_member-socials">
+                            <a href="http://wa.me/+918585046869" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                            <!-- <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a> -->
+                            <!-- <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div> -->
+        </div>
+    </section>
+    <!--########################### END OF MEMBERS  ###########################-->
+
+    <!--------------- Start of Sponsors --------------->
+
+    <section class="sponser-section">
+        <h2 class="heading">Our Sponsors</h2>
+        <div class="sponsers">
+            <img src="https://www.ardentcollaborations.com/assessment_public/production/ardent_logo.png"
+                alt="Sponsers Name">
+        </div>
+    </section>
+
+    <!--------------- End of Sponsors --------------->
+
+    <div id="fq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul class="accordion">
+            <li>
+                <input type="checkbox" name="accordion" id="first">
+                <label for="first">What is Insignia?</label>
+                <div class="content">
+                    <p>
+                        Insignia is a technical coding event organized by the Computer Science and Engineering (Data
+                        Science) department of MCKVIE.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordion" id="second">
+                <label for="second">What are the rules for making a team? </label>
+                <div class="content">
+                    <p>
+                        Each team should consist of 2 members. Cross department team formation is allowed
+
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordion" id="third">
+                <label for="third">How can I participate? </label>
+                <div class="content">
+                    <p>
+                        Go to the register link at the top of the page. There you will find a link to a Google Form.
+                        Fill it up with the neccesary details and make your payment. Last Date of registration is 26th
+                        September
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordion" id="fourth">
+                <label for="fourth">Participation cost in Insignia 2k23 ? </label>
+                <div class="content">
+                    <p>
+                        For each team, the participation fee is ₹70.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordion" id="fifth">
+                <label for="fifth">Will Refreshments be provided? </label>
+                <div class="content">
+                    <p>
+                        Refreshments will be provided for the teams qualifying for the 2nd round.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordion" id="sixth">
+                <label for="sixth">When Winners will be discusses?</label>
+                <div class="content">
+                    <p>
+                        The winners will be announced after each round. Teams getting the 1st, 2nd and 3rd position in
+                        the last round will step on the podium.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordion" id="seventh">
+                <label for="seventh">What are the winning Prizes? </label>
+                <div class="content">
+                    <p>
+                        🏆 Prizes worth ₹6k for winners! 🎁
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ############################# End of the FAQ ##########################  -->
+
+
+    <!--##########################  Footer Part  ##########################-->
+
+    <footer class="footer" id="footer">
+        <div class="container footer_container">
+
+            <div class="footer_2">
+                <h4>Quick Links</h4>
+                <ul class="permalinks">
+                    <li><a href="https://www.mckvie.edu.in/" target="_blank"> mckvie </a></li>
+                    <li><a href="https://www.instagram.com/insignia2k23/" target="_blank"> instagram </a></li>
+                    <li><a href="https://chat.whatsapp.com/HpkqH9Urn4MITbod1VOXju" target="_blank"> whatsapp </a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <div class="contact">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <p>+91 7439440087</p>
+                        <p>+91 9007923300</p>
+                    </div>
+
+                    <!-- <div class="footer_socials">
+                                    <a herf="https://www.instagram.com/insignia2k23/"><svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                            </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <small>Insignia 2k23 | Made by the CSE-DS & CSE Students of MCKVIE with ❤</small>
+        </div>
+    </footer>
+
+    <!--##########################  Footer Part  ##########################-->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let timer_ = 1695753000//unix timestamp
+            let flipdown = new FlipDown(timer_)
+                .start()
+                .ifEnded(() => {
+                    document.querySelector(".flipdown").innerHTML = `<h2> Timer is ended </h2>`
+                })
+        })
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+        var loader = document.getElementById("loading");
+        // setTimeout(function(){
+        //     loader.style.display="none";
+        // },5000);
+        window.addEventListener("load", ()=>{
+            loader.style.display = "block";
+            setTimeout(()=>{loader.style.display="none"},3000);
+        });
+    </script>
+
+</body>
+
+</html>
