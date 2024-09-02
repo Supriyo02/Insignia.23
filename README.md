@@ -2,7 +2,7 @@
 Developed an efficient frontend website to deliver event details and to connect with more students of our college for "Insignia", a technical event organised by CSE & CSE-DS of MCKVIE.   
 
 ### Live site: [insignia-2k23.netlify.app](https://insignia-2k23.netlify.app/)
-Wait for 2 minutes after clicking the link (it may take some time to load as it is not maintained now).
+Wait for a moment after clicking the link (it may take some time to load as it is not maintained now).
 
 ## Screenshots
 | ![](assets/scr1.jpg) | ![](assets/scr2.jpg) | ![](assets/scr3.jpg) |
