@@ -1,38 +1,37 @@
-# Event Management Site for INSIGNIA:
-Developed an efficient frontend website to deliver event details and to connect with more students of our college for "Insignia", a technical event organised by CSE & CSE-DS of MCKVIE.   
-### Live site: [insignia-2k23.netlify.app](https://insignia-2k23.netlify.app/)
-Wait for 2 minutes after clicking the link (it may take some time to load as it is not maintained now).
+# Online Food Delivery Site:
+This project is a mobile-responsive frontend website for online food ordering.  
+
+### Live site: [myyonlinemeal.netlify.app](https://myyonlinemeal.netlify.app/)
+Wait for a moment after clicking the link (it may take some time to load as it is not maintained now).
 
 ## Screenshots
 | ![](assets/scr1.jpg) | ![](assets/scr2.jpg) | ![](assets/scr3.jpg) |
 | :-------------: | :-------------: | :-------------:  |
 
-| ![](assets/scr4.jpg) | ![](assets/scr5.jpg) | ![](assets/scr6.jpg) |
-| :-------------: | :-------------: | :-------------:  |
-
 ## Installation:
 ### 1.Clone the repository:
 ```bash
-git clone https://github.com/your-username/event-management-website.git
+git clone https://github.com/Supriyo02/Insignia.23.git
 ```
 
 ### 2.Open the index.html file:
 ```bash
-cd event-management-website
+cd Insignia.23
 open index.html
 ```
 
 ## Key Features:
-* Student Registration: Users can register for the event using a Google Form integration.
-* Dynamic Timer: A countdown timer displays the remaining time until the registration deadline.
-* Event Alerts: Users can add event details to their Google Calendar for reminders.
-* Event Details: Comprehensive information about each round of the event is provided, including rules, schedule, and judging criteria.
+* Food Catering: Simulates the ability to inquire about catering services.
+* Instant Food Ordering: Mimics the process of placing an instant food order.
+* Bulk Ordering: Offers a frontend interface for bulk order inquiries.
+* Enquiry Form: Provides a user-friendly form for submitting inquiries.
+* Mobile Responsive Design: Ensures the website adapts seamlessly for mobile devices.
+
+* Note: It showcases various functionalities but does not implement actual ordering or business logic (backend).   
 
 ## Technologies Used:
 * HTML
-* JavaScript
 * CSS
 
-## Achievements:
-* Increased User Engagement: The website achieved a 20% increase in user engagement compared to previous event promotion methods.
-* Successful Registrations: Over 80 teams registered for the "Insignia" event through the website.
+## Contributing:
+Feel free to fork the repository and suggest improvements. Please create a new branch for any changes you make.
